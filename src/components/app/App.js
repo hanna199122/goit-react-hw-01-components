@@ -14,7 +14,6 @@ const App = () => {
   return (
     <div className={style['app-container']}>
       <Profile {...user} />
-
       <Statistics stats={data} />
       <FriendList friends={friends} />
       <Transactions items={transactions} />
