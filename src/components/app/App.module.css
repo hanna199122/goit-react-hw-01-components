@@ -1,0 +1,10 @@
+.app-container {
+  padding: 40px 40px;
+  margin: 0 auto;
+  background-color: antiquewhite;
+
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
