@@ -21,7 +21,7 @@ const Transactions = props => {
 export default Transactions;
 
 const TransactionItem = ({ id, type, amount, currency }) => {
-  console.log(type);
+  // console.log(type);
   return (
     <tbody>
       <tr>

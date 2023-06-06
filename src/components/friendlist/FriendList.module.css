@@ -27,7 +27,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
-  background: teal;
+  background: #34b2b2;
   border-radius: 4px;
   padding: 20px;
 }
@@ -38,14 +38,18 @@
   color: white;
 }
 
-.status {
-  width: 6px;
-  height: 6px;
-  background-color: red;
+.green {
+  background-color: green;
+  width: 18px;
+  height: 18px;
   border-radius: 50%;
   margin-right: 30px;
 }
 
-.isOnline {
-  background-color: green;
+.red {
+  background-color: red;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  margin-right: 30px;
 }
